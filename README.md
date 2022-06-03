@@ -16,7 +16,7 @@ composer require larva/laravel-auth-signature-guard
 
 'guards' => [
 	'web'=>[],//原WEB的
-	'api'=>[],//API
+	'api'=>[],//原API
 	'signature'=>[//新增的
 		'driver'=>'signature'
 		'provider'=>'users',
